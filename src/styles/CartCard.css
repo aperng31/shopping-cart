@@ -1,0 +1,8 @@
+.cart-card {
+    display: flex;
+    align-items: center;
+    width: max(600px, 80%);
+    height: 100px;
+    gap: 10px;
+    background-color: aqua;
+}

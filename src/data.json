@@ -1,20 +1,15 @@
 {
-    "shapes": 
-    [
-        {
-            "name": "triangle",
-            "imgSrc": "./imgs/triangle.png",
-            "price": 2.99
-        },
-        {
-            "name": "square",
-            "imgSrc": "./imgs/square.png",
-            "price": 3.99
-        },
-        {
-            "name": "pentagon",
-            "imgSrc": "./imgs/pentagon.png",
-            "price": 4.99
-        }
-    ]
+    "triangle": {
+        "imgSrc": "./imgs/triangle.png",
+        "price": 2.99
+    },
+    "square": {
+        "imgSrc": "./imgs/square.png",
+        "price": 3.99
+    },
+    "pentagon": {
+        "imgSrc": "./imgs/pentagon.png",
+        "price": 4.99
+    }
+    
 }

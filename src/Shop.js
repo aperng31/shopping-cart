@@ -6,13 +6,18 @@ import "./styles/Shop.css"
 
 const Shop = () => {
 
-  const myShapesData = data.shapes; //array of shapes
-  
-  const myShapesArr = myShapesData.map((shape) => {
-    return (
-      <Card name={shape.name} imgSrc={shape.imgSrc} price={shape.price}/>
+  const myShapesArr = [];
+  Object.entries(data).forEach(([key, value]) => {
+    myShapesArr.push(
+      <Card name={ key } imgSrc={ value.imgSrc } price={ value.price } />
     )
-  })
+  }) //array of shapes
+  
+  // const myShapesArr = myShapesData.map((shape) => {
+  //   return (
+  //     <Card name={shape.name} imgSrc={shape.imgSrc} price={shape.price}/>
+  //   )
+  // })
   return (
     <div className="shop-container">
       { myShapesArr }
