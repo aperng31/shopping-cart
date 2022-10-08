@@ -1,15 +1,22 @@
-{
-    "triangle": {
+[
+    {
+        "name": "Triangle",
         "imgSrc": "./imgs/triangle.png",
         "price": 2.99
     },
-    "square": {
+    {
+        "name": "Square",
         "imgSrc": "./imgs/square.png",
         "price": 3.99
     },
-    "pentagon": {
+    {
+        "name": "Pentagon",
         "imgSrc": "./imgs/pentagon.png",
-        "price": 4.99
+        "price": 4.90
+    },
+    {
+        "name": "Hexagon",
+        "imgSrc": "./imgs/hexagon.png",
+        "price": 5.99
     }
-    
-}
+]

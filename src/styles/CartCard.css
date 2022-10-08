@@ -1,8 +1,50 @@
 .cart-card {
     display: flex;
     align-items: center;
-    width: max(600px, 80%);
+    justify-content: space-between;
+    width: 1000px;
     height: 100px;
-    gap: 10px;
-    background-color: aqua;
+    gap: 16px;
+    padding: 12px;
+    box-sizing: border-box;
+    border: 1px solid black;
+}
+
+.cart-image {
+    height: 90px;
+    width: 90px;
+}
+
+.shape-name {
+    width: 200px;
+}
+
+.price-info {
+    display: flex;
+    gap: 16px;
+    padding-left: 10px;
+    box-sizing: border-box;
+    align-items: center;
+    width: 300px;
+}
+
+.unit-price {
+    display: flex;
+    gap: 16px;
+}
+
+.current-quantity {
+    width: 60px;
+}
+
+.edit-quantity {
+    width: 60px;
+    height: 40px;
+    font-size: 18px;
+    padding: 4px;
+    box-sizing: border-box;
+}
+
+.total-cost {
+    width: 300px;
 }

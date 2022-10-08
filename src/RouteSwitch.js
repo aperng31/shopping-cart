@@ -4,6 +4,7 @@ import Home from "./Home"
 import Shop from "./Shop";
 import Cart from "./Cart";
 import "./styles/RouteSwitch.css"
+import github from "./imgs/github.png"
 
 const RouteSwitch = () => {
   return (
@@ -15,6 +16,9 @@ const RouteSwitch = () => {
             <Route path="/shop" element={<Shop />} />
             <Route path="/cart" element={<Cart />} />
           </Routes>
+          <div className="github">
+            <a href="https://github.com/aperng31"><img src={ github } alt="github"></img></a>
+          </div>
         </div>
 
       </BrowserRouter>

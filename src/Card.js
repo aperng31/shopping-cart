@@ -37,7 +37,7 @@ function Card({ name, imgSrc, price, key }) {
         <h3>{ myQuant }</h3>
         <button className="quant-button" onClick={ () => setQuant(myQuant + 1) }>+1</button>  
       </div>
-      <h3 className="shape-price">Price: ${ price }</h3>
+      <h3 className="shape-price">Price: ${ price.toFixed(2) }</h3>
       <button className="addToCart" onClick={ addToCart }>Add to Cart</button>
     </div>
   )

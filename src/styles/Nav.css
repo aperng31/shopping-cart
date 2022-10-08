@@ -1,14 +1,44 @@
 .nav-bar {
+    position: fixed;
+    top: 0;
+
     display: flex;
     justify-content: space-between;
-    height: 100px;
-    width: 30%;
-    background-color: azure;
+    align-items: end;
+
+    box-sizing: border-box;
+    height: 80px;
+    width: 100vw;
+    gap: 10px;
+    padding: 0px 30px 0px 30px;
+    background-color: lightblue;
+}
+
+.nav-bar h2 {
+    color: black;
 }
 
 .nav-links {
     display: flex;
     justify-content: space-between;
     list-style: none;
-    gap: 12px;
+    gap: 50px;
+    text-decoration: none;
+}
+
+.nav-links li {
+    font-size: 24px;
+    color: black;
+}
+
+a {
+    text-decoration: none;
+}
+a:visited {
+    text-decoration: none;
+}
+
+.logo {
+    height: 70px;
+    width: 70px;
 }

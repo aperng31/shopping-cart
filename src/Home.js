@@ -1,12 +1,14 @@
 import React from "react";
+import "./styles/Home.css"
 
 const Home = () => {
   return (
-    <div>
-      <h3>Home</h3>
-      <p>
-        Look for all your shape needs here! We have all types of shapes in all shapes and sizes, go ahead and take a look!
-      </p>
+    <div className="home-container">
+      <div className="home-sub" id="home-sub-1">
+        <div className="paragraph" id="para1">
+          <p>Premium shapes of all shapes and sizes</p>
+        </div>
+      </div>
     </div>
   );
 };
